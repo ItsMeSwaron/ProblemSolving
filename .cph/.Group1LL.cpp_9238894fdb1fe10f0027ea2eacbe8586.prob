@@ -1,0 +1,1 @@
+{"name":"Local: Group1LL","url":"e:\\PHITRON\\Semester 1\\C++ for DSA & Basic Data Structures\\Group1LL.cpp","tests":[{"id":1708706243238,"input":"8\n10 20 30 10 10 50 10 40","output":"10 20 30 50 40"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\PHITRON\\Semester 1\\C++ for DSA & Basic Data Structures\\Group1LL.cpp","group":"local","local":true}
