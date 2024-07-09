@@ -1,0 +1,1 @@
+{"name":"Local: KnapsackTopDown","url":"e:\\PHITRON\\Semester 1\\C++ for DSA & Basic Data Structures\\KnapsackTopDown.cpp","tests":[{"id":1718946626578,"input":"3\n3 4 5\n30 50 60\n8","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\PHITRON\\Semester 1\\C++ for DSA & Basic Data Structures\\KnapsackTopDown.cpp","group":"local","local":true}
