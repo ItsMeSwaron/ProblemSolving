@@ -73,7 +73,6 @@ void Printer(Node * head)
         cout << tmp->val << " ";
         tmp = tmp->next;
     }
-
 }
 
 int main()
