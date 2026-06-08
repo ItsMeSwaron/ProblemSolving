@@ -29,8 +29,8 @@ int knapsack(int n, int weight[], int value[], int W)
     {
         // ekta option
         // na niyei dekhte hobe
-        int op2 = knapsack(n - 1, weight, value, W);
-        return dp[n][W] = op2;
+        int op1 = knapsack(n - 1, weight, value, W);
+        return dp[n][W] = op1;
     }
 }
 

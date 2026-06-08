@@ -193,7 +193,6 @@ int Counter(Node * root)
     int RightSubTree = Counter(root->right);
 
     return LeftSubTree + RightSubTree + 1;
-
 }
 
 int LeafCounter(Node * root)
@@ -240,6 +239,40 @@ int SmallFinder(Node * root)
 
     return tmp->val;
 }
+
+// FOR BINRAY SEARCH TREE
+
+void insert(Node *&root, int x)
+{
+    if (root == NULL)
+    {
+        root = new Node(x);
+        return;
+    }
+    if (x < root->val)
+    {
+        if (root->left == NULL)
+        {
+            root->left = new Node(x);
+        }
+        else
+        {
+            insert(root->left, x);
+        }
+    }
+    else
+    {
+        if (root->right == NULL)
+        {
+            root->right = new Node(x);
+        }
+        else
+        {
+            insert(root->right, x);
+        }
+    }
+}
+
 
 int main()
 {
